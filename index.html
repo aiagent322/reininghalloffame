@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Reining Hall of Fame | Legends, Horses, Riders &amp; History of Reining</title>
+<meta name="description" content="The definitive editorial archive celebrating the legends, horses, riders, trainers, and history of the sport of reining. Presented by Bridle &amp; Bit.">
+<meta property="og:title" content="Reining Hall of Fame — Legends of the Sport">
+<meta property="og:description" content="The history of reining legends, horses, riders, trainers, and hall of fame greatness. An independent editorial archive by Bridle &amp; Bit.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://reininghalloffame.com">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://reininghalloffame.com">
+<meta name="theme-color" content="#3D2414">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#C5A55A;--gold-light:#D4BA7A;--gold-dark:#A68A3E;
+  --leather:#5C3A21;--leather-dark:#3D2414;--saddle:#8B5E3C;
+  --cream:#FAF6EE;--cream-dark:#F0E8D8;--parchment:#F5EFE0;
+  --text:#3A3028;--text-light:#7A7062;--arena-dust:#E8DCC8;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+a,button,[onclick]{touch-action:manipulation}
+html{scroll-behavior:smooth;scroll-padding-top:60px}
+body{font-family:'Source Sans 3',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--cream);color:var(--text);-webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-wrap:break-word;word-break:break-word;line-height:1.7}
+
+/* HEADER */
+.site-header{background:linear-gradient(180deg,var(--leather-dark),var(--leather));padding:4px 12px;padding-top:max(4px,env(safe-area-inset-top));padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right));display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.35);color:#fff;min-height:52px}
+.header-brand{display:flex;align-items:center;gap:10px}
+.header-logo{width:36px;height:36px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.header-title{font-family:'Playfair Display',serif;color:#fff;font-size:14px;font-weight:700;letter-spacing:.5px;line-height:1.2}
+.header-title span{display:block;font-size:0.68rem;color:#fff;font-family:'Source Sans 3',sans-serif;font-weight:400;letter-spacing:2px;text-transform:uppercase;opacity:.75}
+.header-bb{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.header-bb a{color:var(--gold-light);text-decoration:none;font-size:0.7rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;opacity:.85;white-space:nowrap}
+.header-divider{width:1px;height:16px;background:rgba(197,165,90,.3)}
+
+/* HERO */
+.hero{background:linear-gradient(160deg,#2A1509,#4A2A14 35%,#1a0a04 65%,#5C3A21);padding:44px 20px 36px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center top,rgba(197,165,90,.18),transparent 65%);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:240px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.hero-eyebrow{color:var(--gold-light);font-size:0.72rem;font-weight:600;letter-spacing:3.5px;text-transform:uppercase;margin-bottom:12px;opacity:.85}
+.hero h1{font-family:'Playfair Display',serif;color:var(--gold);font-size:32px;font-weight:900;letter-spacing:2px;line-height:1.1;margin-bottom:6px;text-shadow:0 2px 12px rgba(0,0,0,.5);text-transform:uppercase;text-wrap:balance}
+.hero-subtitle{color:#FAF6EE;font-size:14px;font-weight:400;margin:14px auto 0;line-height:1.6;max-width:480px;opacity:.9;padding:0 8px}
+.hero-cta-group{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:24px}
+.cta-btn{background:transparent;border:1px solid rgba(197,165,90,.6);color:var(--gold-light);padding:9px 18px;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:.2s;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center;font-family:inherit}
+.cta-btn:hover,.cta-btn:active{background:var(--gold);color:var(--leather-dark);border-color:var(--gold)}
+.cta-btn.primary{background:var(--gold);color:var(--leather-dark);border-color:var(--gold)}
+.cta-btn.primary:hover{background:var(--gold-light)}
+
+/* STATS */
+.stats-bar{background:linear-gradient(90deg,var(--leather),var(--saddle) 50%,var(--leather));display:grid;grid-template-columns:repeat(4,1fr);text-align:center;padding:14px 8px;border-top:1px solid rgba(197,165,90,.3);border-bottom:1px solid rgba(197,165,90,.3)}
+.stat-num{font-family:'Playfair Display',serif;color:var(--gold);font-size:24px;font-weight:800;line-height:1}
+.stat-label{color:#FAF6EE;font-size:0.68rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-top:3px;opacity:.85}
+
+/* NAV BOXES */
+.nav-boxes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px;background:var(--cream-dark)}
+.nav-box{background:#fff;border-radius:8px;padding:14px 8px;text-align:center;cursor:pointer;border:1px solid var(--arena-dust);transition:.2s;min-height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none}
+.nav-box:active{transform:scale(.97)}
+.nav-box-icon{font-size:22px;margin-bottom:4px}
+.nav-box-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--leather)}
+
+/* SECTION HEADERS */
+.section-header{padding:28px 16px 14px;text-align:center}
+.section-header h2{font-family:'Playfair Display',serif;color:var(--leather-dark);font-size:22px;font-weight:800;text-wrap:balance}
+.gold-rule{display:block;width:60px;height:2px;background:var(--gold);margin:8px auto 0}
+.section-header p{color:var(--text-light);font-size:14px;font-weight:500;margin-top:8px;line-height:1.5}
+
+/* LEGEND CARDS */
+.legends-scroll{padding:0 16px 20px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;cursor:grab}
+.legends-scroll:active{cursor:grabbing}
+.legends-scroll::-webkit-scrollbar{display:none}
+.legends-track{display:flex;gap:12px;padding-bottom:4px;width:max-content}
+.legend-card{min-width:280px;max-width:280px;background:linear-gradient(145deg,var(--leather-dark),var(--leather));border-radius:12px;overflow:hidden;cursor:pointer;flex-shrink:0;transition:.2s;display:flex;flex-direction:row}
+.legend-card:active{transform:scale(.98)}
+.legend-photo{width:48%;position:relative;overflow:hidden;background:linear-gradient(145deg,var(--leather-dark),var(--saddle));min-height:170px;flex-shrink:0}
+.legend-initials{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;color:var(--gold);font-size:40px;font-weight:800;opacity:.35}
+.legend-right{flex:1;padding:14px 12px;display:flex;flex-direction:column;justify-content:center}
+.legend-badge{display:inline-flex;align-items:center;font-size:0.68rem;background:var(--gold);color:var(--leather-dark);padding:2px 8px;border-radius:20px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;align-self:flex-start}
+.legend-name{font-family:'Playfair Display',serif;color:var(--gold);font-size:16px;font-weight:800;line-height:1.2;margin-bottom:5px}
+.legend-type{color:var(--gold-light);font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;opacity:.8}
+.legend-desc{color:#FAF6EE;font-size:0.72rem;line-height:1.5;opacity:.75}
+.legend-arrow{color:var(--gold);font-size:14px;opacity:.4;margin-top:8px;align-self:flex-end}
+
+/* HORSE GRID */
+.horse-grid{padding:0 12px 24px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.horse-card{background:#fff;border-radius:10px;overflow:hidden;cursor:pointer;border:1px solid var(--arena-dust);transition:.2s}
+.horse-card:active{transform:scale(.97)}
+.horse-photo{width:100%;aspect-ratio:4/3;overflow:hidden;position:relative;background:linear-gradient(145deg,var(--leather-dark),var(--saddle))}
+.horse-initials{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:44px;opacity:.25}
+.horse-photo-overlay{position:absolute;bottom:0;left:0;right:0;padding:6px 10px;background:linear-gradient(transparent,rgba(29,15,8,.9))}
+.horse-era{font-size:0.68rem;color:var(--gold-light);font-weight:600;letter-spacing:1px}
+.horse-card-body{padding:10px 12px 12px}
+.horse-name{font-family:'Playfair Display',serif;font-size:14px;font-weight:700;color:var(--leather-dark);line-height:1.2;margin-bottom:3px}
+.horse-tag{font-size:0.68rem;color:var(--text-light);font-style:italic;margin-bottom:6px}
+.horse-achievement{font-size:0.72rem;display:inline-flex;align-items:center;gap:3px;background:var(--parchment);padding:2px 8px;border-radius:4px;font-weight:600;color:var(--leather)}
+
+/* TRAINER GRID */
+.trainer-grid{padding:0 12px 24px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.trainer-card{background:linear-gradient(145deg,var(--leather-dark),#2a1408);border-radius:10px;overflow:hidden;cursor:pointer;padding:16px 14px;transition:.2s}
+.trainer-card:active{transform:scale(.97)}
+.trainer-avatar{width:52px;height:52px;background:rgba(197,165,90,.18);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:22px;font-weight:800;color:var(--gold);margin-bottom:10px}
+.trainer-name{font-family:'Playfair Display',serif;font-size:15px;font-weight:800;color:var(--gold);line-height:1.2;margin-bottom:4px}
+.trainer-role{font-size:0.68rem;color:var(--gold-light);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;opacity:.8}
+.trainer-stat{font-size:0.72rem;color:#FAF6EE;opacity:.75;line-height:1.4}
+.trainer-badge{display:inline-block;background:var(--gold);color:var(--leather-dark);font-size:0.62rem;font-weight:800;padding:2px 8px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px;margin-top:8px}
+
+/* TIMELINE */
+.timeline{padding:0 16px 24px;position:relative}
+.timeline::before{content:'';position:absolute;left:68px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,transparent,var(--gold) 10%,var(--gold) 90%,transparent)}
+.timeline-item{display:flex;gap:12px;margin-bottom:24px;align-items:flex-start}
+.timeline-year{font-family:'Playfair Display',serif;font-size:13px;font-weight:800;color:var(--gold-dark);min-width:42px;text-align:right;padding-top:14px;flex-shrink:0}
+.timeline-dot{width:14px;height:14px;background:var(--gold);border-radius:50%;flex-shrink:0;margin-top:14px;position:relative;z-index:1;box-shadow:0 0 0 4px var(--cream)}
+.timeline-content{background:#fff;border-radius:8px;padding:12px 14px;border:1px solid var(--arena-dust);flex:1}
+.timeline-title{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:var(--leather-dark);line-height:1.3;margin-bottom:4px}
+.timeline-desc{font-size:0.78rem;color:var(--text-light);line-height:1.5}
+
+/* INDUCTEES */
+.inductees-list{padding:0 16px 24px;display:flex;flex-direction:column;gap:10px}
+.inductee-row{background:#fff;border-radius:8px;padding:14px 16px;border:1px solid var(--arena-dust);display:flex;align-items:center;gap:14px;cursor:pointer;transition:.2s}
+.inductee-row:active{background:var(--parchment)}
+.inductee-year-badge{background:var(--leather-dark);color:var(--gold);font-family:'Playfair Display',serif;font-size:14px;font-weight:800;padding:6px 10px;border-radius:6px;text-align:center;flex-shrink:0;min-width:52px}
+.inductee-info{flex:1}
+.inductee-name{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:var(--leather-dark);line-height:1.2}
+.inductee-category{font-size:0.72rem;color:var(--text-light);margin-top:2px;font-style:italic}
+.inductee-arrow{color:var(--text-light);font-size:16px;opacity:.4}
+
+/* VIDEO CARDS */
+.video-scroll{padding:0 16px 24px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.video-scroll::-webkit-scrollbar{display:none}
+.video-track{display:flex;gap:12px;width:max-content;padding-bottom:4px}
+.video-card{min-width:260px;background:var(--leather-dark);border-radius:10px;overflow:hidden;cursor:pointer;flex-shrink:0}
+.video-thumb{width:100%;height:146px;background:linear-gradient(145deg,#1a0a04,var(--saddle));position:relative;display:flex;align-items:center;justify-content:center}
+.video-play{width:52px;height:52px;background:rgba(197,165,90,.9);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;color:var(--leather-dark);transition:.2s}
+.video-card:active .video-play{transform:scale(.95)}
+.video-label{font-size:0.65rem;background:var(--gold);color:var(--leather-dark);padding:2px 8px;border-radius:2px;position:absolute;top:8px;left:8px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+.video-body{padding:12px}
+.video-title{font-family:'Playfair Display',serif;color:var(--gold);font-size:14px;font-weight:700;line-height:1.3;margin-bottom:4px}
+.video-meta{font-size:0.7rem;color:#FAF6EE;opacity:.6}
+
+/* ECOSYSTEM */
+.eco-section{background:var(--leather-dark);padding:24px 16px;margin-top:8px}
+.eco-header{text-align:center;margin-bottom:16px}
+.eco-links{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:480px;margin:0 auto}
+.eco-link{background:rgba(255,255,255,.06);border:1px solid rgba(197,165,90,.2);border-radius:8px;padding:14px 8px;text-align:center;text-decoration:none;transition:.2s;min-height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.eco-link:hover{background:rgba(197,165,90,.12);border-color:rgba(197,165,90,.4)}
+.eco-link-icon{font-size:20px}
+.eco-link-text{font-size:0.65rem;font-weight:700;color:var(--gold-light);letter-spacing:.5px;text-transform:uppercase;line-height:1.2}
+
+/* FILTER BAR */
+.filter-bar{padding:12px 16px;display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.filter-bar::-webkit-scrollbar{display:none}
+.filter-chip{background:#fff;border:1px solid var(--arena-dust);border-radius:20px;padding:0 14px;font-size:12px;font-weight:600;color:var(--text-light);cursor:pointer;white-space:nowrap;transition:.2s;flex-shrink:0;min-height:36px;display:inline-flex;align-items:center;font-family:inherit}
+.filter-chip.active{background:var(--leather);color:var(--gold);border-color:var(--leather)}
+
+/* ABOUT BANNER */
+.about-banner{background:linear-gradient(135deg,var(--leather-dark),#1a0804 50%,var(--leather-dark));margin:8px 12px 24px;border-radius:12px;padding:22px 18px;border:1px solid rgba(197,165,90,.2)}
+.about-banner h3{font-family:'Playfair Display',serif;color:var(--gold);font-size:18px;font-weight:800;margin-bottom:10px;line-height:1.3}
+.about-banner p{font-size:13px;color:#FAF6EE;opacity:.8;line-height:1.7;margin-bottom:8px}
+.about-banner p:last-child{margin-bottom:0}
+
+/* FOOTER */
+.site-footer{background:var(--leather-dark);padding:28px 16px 32px;padding-bottom:max(32px,env(safe-area-inset-bottom));text-align:center;border-top:1px solid rgba(197,165,90,.15)}
+.footer-logo{font-family:'Playfair Display',serif;color:var(--gold);font-size:18px;font-weight:800;margin-bottom:6px;letter-spacing:1px}
+.footer-logo span{display:block;font-size:0.7rem;color:var(--gold-light);font-family:'Source Sans 3',sans-serif;font-weight:400;letter-spacing:3px;text-transform:uppercase;margin-top:2px;opacity:.75}
+.footer-bb{margin:14px 0}
+.footer-bb a{color:var(--gold-light);text-decoration:none;font-size:11px;border:1px solid rgba(197,165,90,.3);padding:7px 18px;border-radius:4px;display:inline-block;letter-spacing:1px;text-transform:uppercase}
+.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-bottom:16px}
+.footer-nav a{color:#FAF6EE;text-decoration:none;font-size:11px;opacity:.55;transition:.2s;letter-spacing:.5px}
+.footer-nav a:hover{opacity:1;color:var(--gold-light)}
+.footer-disclaimer{color:#FAF6EE;font-size:0.72rem;opacity:.45;line-height:1.6;max-width:400px;margin:0 auto 12px;font-style:italic}
+.footer-copy{color:#FAF6EE;font-size:0.68rem;opacity:.35;margin-top:10px}
+.footer-divider{width:60px;height:1px;background:rgba(197,165,90,.2);margin:16px auto}
+
+/* UTILS */
+.gold-section-rule{height:1px;background:linear-gradient(90deg,transparent,var(--arena-dust),transparent);margin:0 16px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ANIMATIONS */
+@keyframes fadeInUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.horse-card,.trainer-card{animation:fadeInUp .4s ease both}
+.horse-card:nth-child(odd),.trainer-card:nth-child(odd){animation-delay:.05s}
+.horse-card:nth-child(even),.trainer-card:nth-child(even){animation-delay:.1s}
+
+/* RESPONSIVE */
+@media(max-width:479px){
+  .stats-bar{grid-template-columns:repeat(2,1fr);gap:8px 0;padding:12px 8px}
+  .stat-num{font-size:20px}
+  .hero h1{font-size:26px}
+  .hero-cta-group{gap:6px}
+  .cta-btn{padding:8px 14px;font-size:0.7rem}
+  .header-brand .header-title{display:none}
+}
+@media(max-width:359px){
+  .hero h1{font-size:22px}
+  .legend-card{min-width:230px;max-width:230px}
+  .legend-name{font-size:14px}
+  .nav-box{padding:10px 4px}
+  .nav-box-label{font-size:0.65rem}
+  .timeline::before{left:58px}
+}
+@media(min-width:480px){
+  .legend-card{min-width:300px;max-width:300px}
+  .hero h1{font-size:clamp(28px,6vw,52px)}
+}
+@media(min-width:600px){
+  .horse-grid{grid-template-columns:repeat(3,1fr);max-width:700px;margin:0 auto;padding:0 16px 24px}
+  .trainer-grid{grid-template-columns:repeat(3,1fr);max-width:700px;margin:0 auto;padding:0 16px 24px}
+  .section-header h2{font-size:clamp(20px,4vw,28px)}
+  .hero{padding:60px 20px 48px}
+}
+@media(min-width:900px){
+  .horse-grid{grid-template-columns:repeat(4,1fr);max-width:960px}
+  .trainer-grid{grid-template-columns:repeat(4,1fr);max-width:960px}
+  .nav-boxes{grid-template-columns:repeat(6,1fr);max-width:960px;margin:0 auto}
+  .legend-card{min-width:310px;max-width:310px}
+  .hero h1{font-size:clamp(36px,5vw,64px)}
+  .timeline{max-width:680px;margin:0 auto}
+  .inductees-list{max-width:680px;margin:0 auto}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://reininghalloffame.com/#website",
+      "url": "https://reininghalloffame.com",
+      "name": "Reining Hall of Fame",
+      "description": "An independent editorial archive celebrating the legends, horses, riders, trainers, and history of the sport of reining.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Bridle & Bit Magazine",
+        "url": "https://bridleandbit.com"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Reining Hall of Fame — Legends & History",
+      "description": "The definitive editorial archive for reining history, hall of fame horses, riders, trainers, bloodlines, and historic champions.",
+      "url": "https://reininghalloffame.com",
+      "about": {
+        "@type": "SportsOrganization",
+        "name": "National Reining Horse Association",
+        "alternateName": "NRHA",
+        "sport": "Reining",
+        "url": "https://nrha.com"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Home","item":"https://reininghalloffame.com"},
+          {"@type":"ListItem","position":2,"name":"Horses","item":"https://reininghalloffame.com/horses/"},
+          {"@type":"ListItem","position":3,"name":"Riders","item":"https://reininghalloffame.com/riders/"},
+          {"@type":"ListItem","position":4,"name":"Trainers","item":"https://reininghalloffame.com/trainers/"},
+          {"@type":"ListItem","position":5,"name":"History","item":"https://reininghalloffame.com/history/"}
+        ]
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header" role="banner">
+  <div class="header-brand">
+    <div class="header-logo" aria-hidden="true">&#127943;</div>
+    <div class="header-title">
+      Reining Hall of Fame
+      <span>Editorial Archive</span>
+    </div>
+  </div>
+  <div class="header-bb">
+    <div class="header-divider" aria-hidden="true"></div>
+    <a href="https://bridleandbit.com" rel="noopener" aria-label="Bridle and Bit Magazine">Bridle &amp; Bit</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" role="banner" aria-labelledby="hero-heading">
+  <p class="hero-eyebrow">&#9658;&nbsp; An Independent Editorial Archive</p>
+  <h1 id="hero-heading">Reining Hall of Fame</h1>
+  <p class="hero-subtitle">The History of Reining Legends, Horses, Riders, Trainers, and Hall of Fame Greatness &mdash; Presented by Bridle &amp; Bit</p>
+  <nav class="hero-cta-group" aria-label="Browse the archive">
+    <button class="cta-btn primary" onclick="document.querySelector('.horses-section').scrollIntoView({behavior:'smooth'})">Hall of Fame Horses</button>
+    <button class="cta-btn" onclick="document.querySelector('.riders-section').scrollIntoView({behavior:'smooth'})">Legendary Riders</button>
+    <button class="cta-btn" onclick="document.querySelector('.champions-section').scrollIntoView({behavior:'smooth'})">Historic Champions</button>
+    <button class="cta-btn" onclick="document.querySelector('.timeline-section').scrollIntoView({behavior:'smooth'})">Reining History</button>
+  </nav>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar" role="region" aria-label="Archive at a glance">
+  <div>
+    <div class="stat-num">60+</div>
+    <div class="stat-label">Years of History</div>
+  </div>
+  <div>
+    <div class="stat-num">200+</div>
+    <div class="stat-label">Hall of Famers</div>
+  </div>
+  <div>
+    <div class="stat-num">$50M+</div>
+    <div class="stat-label">Million Dollar Sires</div>
+  </div>
+  <div>
+    <div class="stat-num">40+</div>
+    <div class="stat-label">Legendary Horses</div>
+  </div>
+</div>
+
+<!-- NAV BOXES -->
+<nav class="nav-boxes" aria-label="Browse archive categories">
+  <a href="/horses/" class="nav-box">
+    <div class="nav-box-icon" aria-hidden="true">&#128052;</div>
+    <div class="nav-box-label">Horses</div>
+  </a>
+  <a href="/riders/" class="nav-box">
+    <div class="nav-box-icon" aria-hidden="true">&#129312;</div>
+    <div class="nav-box-label">Riders</div>
+  </a>
+  <a href="/trainers/" class="nav-box">
+    <div class="nav-box-icon" aria-hidden="true">&#127942;</div>
+    <div class="nav-box-label">Trainers</div>
+  </a>
+  <a href="/history/" class="nav-box">
+    <div class="nav-box-icon" aria-hidden="true">&#128220;</div>
+    <div class="nav-box-label">History</div>
+  </a>
+  <a href="/bloodlines/" class="nav-box">
+    <div class="nav-box-icon" aria-hidden="true">&#129516;</div>
+    <div class="nav-box-label">Bloodlines</div>
+  </a>
+  <a href="/champions/" class="nav-box">
+    <div class="nav-box-icon" aria-hidden="true">&#11088;</div>
+    <div class="nav-box-label">Champions</div>
+  </a>
+</nav>
+
+<!-- FEATURED LEGENDS -->
+<section aria-labelledby="legends-heading" style="background:var(--cream-dark);padding-bottom:4px">
+  <div class="section-header">
+    <h2 id="legends-heading">Featured Reining Legends</h2>
+    <span class="gold-rule"></span>
+    <p>Icons whose names define the sport &mdash; horses, riders, trainers, and breeders</p>
+  </div>
+  <div class="legends-scroll" role="list" aria-label="Featured legends carousel">
+    <div class="legends-track">
+
+      <article class="legend-card" role="listitem" onclick="location.href='/horses/shining-spark/'">
+        <div class="legend-photo" aria-hidden="true"><div class="legend-initials">SS</div></div>
+        <div class="legend-right">
+          <span class="legend-badge">&#11088; Legend</span>
+          <h3 class="legend-name">Shining Spark</h3>
+          <div class="legend-type">Stallion &middot; Foundation Sire</div>
+          <p class="legend-desc">$100M+ get earnings. The most influential reining sire of his generation, producing futurity champions worldwide across multiple decades.</p>
+          <div class="legend-arrow" aria-hidden="true">&#8594;</div>
+        </div>
+      </article>
+
+      <article class="legend-card" role="listitem" onclick="location.href='/horses/hollywood-dun-it/'">
+        <div class="legend-photo" aria-hidden="true"><div class="legend-initials">HD</div></div>
+        <div class="legend-right">
+          <span class="legend-badge">&#127942; HOF</span>
+          <h3 class="legend-name">Hollywood Dun It</h3>
+          <div class="legend-type">Stallion &middot; Hall of Fame Sire</div>
+          <p class="legend-desc">NRHA Hall of Fame. Sire of multiple Open Futurity champions. A cornerstone of modern reining bloodlines and a defining figure in the sport.</p>
+          <div class="legend-arrow" aria-hidden="true">&#8594;</div>
+        </div>
+      </article>
+
+      <article class="legend-card" role="listitem" onclick="location.href='/riders/al-dunning/'">
+        <div class="legend-photo" aria-hidden="true"><div class="legend-initials">AD</div></div>
+        <div class="legend-right">
+          <span class="legend-badge">&#129312; Rider</span>
+          <h3 class="legend-name">Al Dunning</h3>
+          <div class="legend-type">Rider &middot; Trainer &middot; HOF</div>
+          <p class="legend-desc">NRHA Hall of Fame inductee. Multiple Open Futurity titles. One of the most decorated horsemen in the history of reining.</p>
+          <div class="legend-arrow" aria-hidden="true">&#8594;</div>
+        </div>
+      </article>
+
+      <article class="legend-card" role="listitem" onclick="location.href='/horses/colonels-smoking-gun/'">
+        <div class="legend-photo" aria-hidden="true"><div class="legend-initials">CG</div></div>
+        <div class="legend-right">
+          <span class="legend-badge">&#128052; Champion</span>
+          <h3 class="legend-name">Colonels Smoking Gun</h3>
+          <div class="legend-type">Stallion &middot; Million Dollar Sire</div>
+          <p class="legend-desc">NRHA Million Dollar Sire. Passed his brilliant athleticism and trainability through generations of futurity champions across the world.</p>
+          <div class="legend-arrow" aria-hidden="true">&#8594;</div>
+        </div>
+      </article>
+
+      <article class="legend-card" role="listitem" onclick="location.href='/trainers/shawn-flarida/'">
+        <div class="legend-photo" aria-hidden="true"><div class="legend-initials">SF</div></div>
+        <div class="legend-right">
+          <span class="legend-badge">&#127942; HOF</span>
+          <h3 class="legend-name">Shawn Flarida</h3>
+          <div class="legend-type">Rider &middot; Trainer &middot; HOF</div>
+          <p class="legend-desc">NRHA Hall of Fame. Six-time NRHA Open Futurity Champion. Over $6M in lifetime earnings. The platinum standard of reining excellence.</p>
+          <div class="legend-arrow" aria-hidden="true">&#8594;</div>
+        </div>
+      </article>
+
+      <article class="legend-card" role="listitem" onclick="location.href='/horses/taris-little-step/'">
+        <div class="legend-photo" aria-hidden="true"><div class="legend-initials">TL</div></div>
+        <div class="legend-right">
+          <span class="legend-badge">&#11088; Champion</span>
+          <h3 class="legend-name">Taris Little Step</h3>
+          <div class="legend-type">Mare &middot; Open Futurity Champion</div>
+          <p class="legend-desc">1990 NRHA Open Futurity Champion. A mare whose brilliance in the arena defined an era of elite performance reining and influenced breeding for decades.</p>
+          <div class="legend-arrow" aria-hidden="true">&#8594;</div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- HISTORIC HORSES -->
+<section class="horses-section" aria-labelledby="horses-heading">
+  <div class="section-header">
+    <h2 id="horses-heading">Historic Reining Horses</h2>
+    <span class="gold-rule"></span>
+    <p>Famous sires, futurity champions, million dollar earners, and legendary bloodlines</p>
+  </div>
+  <div class="filter-bar" role="group" aria-label="Filter horses by category">
+    <button class="filter-chip active">All Horses</button>
+    <button class="filter-chip">Million Dollar Sires</button>
+    <button class="filter-chip">Futurity Champions</button>
+    <button class="filter-chip">Mares</button>
+    <button class="filter-chip">Influential Sires</button>
+    <button class="filter-chip">NRHA HOF</button>
+  </div>
+  <div class="horse-grid" role="list">
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/shining-spark/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#128052;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Foaled 1990 &middot; Foundation Sire</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Shining Spark</h3>
+        <div class="horse-tag">by Genuine Doc &middot; out of Diamonds Sparkle</div>
+        <span class="horse-achievement">$100M+ Get Earnings</span>
+      </div>
+    </article>
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/hollywood-dun-it/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#11088;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Foaled 1983 &middot; Hall of Fame</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Hollywood Dun It</h3>
+        <div class="horse-tag">by Hollywood Jac 86 &middot; out of Ima Cool Skip</div>
+        <span class="horse-achievement">NRHA Hall of Fame</span>
+      </div>
+    </article>
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/colonels-smoking-gun/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#127942;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Foaled 1991 &middot; Million $ Sire</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Colonels Smoking Gun</h3>
+        <div class="horse-tag">by Colonel Freckles &middot; out of Gunsmoke Salena</div>
+        <span class="horse-achievement">Million Dollar Sire</span>
+      </div>
+    </article>
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/topsail-whiz/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#128052;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Foaled 1999 &middot; Champion Sire</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Topsail Whiz</h3>
+        <div class="horse-tag">by Rugged Lark &middot; out of Missys Blue Whiz</div>
+        <span class="horse-achievement">Multiple Futurity Titles</span>
+      </div>
+    </article>
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/gunners-special-nite/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#127775;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Foaled 1999 &middot; Open Champion</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Gunners Special Nite</h3>
+        <div class="horse-tag">by Colonels Smoking Gun</div>
+        <span class="horse-achievement">2001 NRHA Open Futurity</span>
+      </div>
+    </article>
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/taris-little-step/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#128052;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Foaled 1987 &middot; Open Champion</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Taris Little Step</h3>
+        <div class="horse-tag">by Nu Bar &middot; out of Taris First Step</div>
+        <span class="horse-achievement">1990 NRHA Open Futurity</span>
+      </div>
+    </article>
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/genuine-doc/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#11088;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Foaled 1974 &middot; Foundation Sire</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Genuine Doc</h3>
+        <div class="horse-tag">by Doc Bar &middot; out of Miss Nuggett Bar</div>
+        <span class="horse-achievement">Foundation Sire of Reining</span>
+      </div>
+    </article>
+
+    <article class="horse-card" role="listitem" onclick="location.href='/horses/wimpys-little-step/'">
+      <div class="horse-photo" aria-hidden="true">
+        <div class="horse-initials">&#127942;</div>
+        <div class="horse-photo-overlay"><div class="horse-era">Million Dollar Sire</div></div>
+      </div>
+      <div class="horse-card-body">
+        <h3 class="horse-name">Wimpys Little Step</h3>
+        <div class="horse-tag">by Peptoboonsmal &middot; NRHA HOF</div>
+        <span class="horse-achievement">NRHA Hall of Fame</span>
+      </div>
+    </article>
+
+  </div>
+  <div style="text-align:center;padding:0 16px 24px">
+    <a href="/horses/" style="display:inline-block;color:var(--leather);font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px">View All Hall of Fame Horses &#8594;</a>
+  </div>
+</section>
+
+<div class="gold-section-rule"></div>
+
+<!-- RIDERS & TRAINERS -->
+<section class="riders-section" aria-labelledby="riders-heading">
+  <div class="section-header">
+    <h2 id="riders-heading">Hall of Fame Riders &amp; Trainers</h2>
+    <span class="gold-rule"></span>
+    <p>The horsemen and women who built the sport of reining from the ground up</p>
+  </div>
+  <div class="trainer-grid" role="list">
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/al-dunning/'">
+      <div class="trainer-avatar" aria-hidden="true">AD</div>
+      <h3 class="trainer-name">Al Dunning</h3>
+      <div class="trainer-role">Rider &middot; Trainer</div>
+      <p class="trainer-stat">NRHA Hall of Fame. Multiple Open Futurity titles. Over 40 years shaping world-class reining horses and mentoring top professionals.</p>
+      <span class="trainer-badge">HOF Inductee</span>
+    </article>
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/shawn-flarida/'">
+      <div class="trainer-avatar" aria-hidden="true">SF</div>
+      <h3 class="trainer-name">Shawn Flarida</h3>
+      <div class="trainer-role">Rider &middot; Trainer</div>
+      <p class="trainer-stat">NRHA Hall of Fame. Six-time NRHA Futurity Open Champion. $6M+ lifetime earnings. Platinum Producer Award recipient.</p>
+      <span class="trainer-badge">HOF Inductee</span>
+    </article>
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/tom-mccutcheon/'">
+      <div class="trainer-avatar" aria-hidden="true">TM</div>
+      <h3 class="trainer-name">Tom McCutcheon</h3>
+      <div class="trainer-role">Rider &middot; Trainer</div>
+      <p class="trainer-stat">NRHA Hall of Fame. Multiple NRHA Futurity Open championships. AQHA World Champion. Elite career record spanning decades.</p>
+      <span class="trainer-badge">HOF Inductee</span>
+    </article>
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/andrea-fappani/'">
+      <div class="trainer-avatar" aria-hidden="true">AF</div>
+      <h3 class="trainer-name">Andrea Fappani</h3>
+      <div class="trainer-role">Rider &middot; Trainer</div>
+      <p class="trainer-stat">NRHA Futurity Open Champion. FEI Reining World Champion. $5M+ earnings. Italy&rsquo;s ambassador who brought reining to a global audience.</p>
+      <span class="trainer-badge">World Champion</span>
+    </article>
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/bill-horn/'">
+      <div class="trainer-avatar" aria-hidden="true">BH</div>
+      <h3 class="trainer-name">Bill Horn</h3>
+      <div class="trainer-role">Trainer &middot; Pioneer</div>
+      <p class="trainer-stat">NRHA Hall of Fame. Pioneer of reining horsemanship whose influence shaped the fundamentals of modern training across generations.</p>
+      <span class="trainer-badge">HOF Inductee</span>
+    </article>
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/craig-johnson/'">
+      <div class="trainer-avatar" aria-hidden="true">CJ</div>
+      <h3 class="trainer-name">Craig Johnson</h3>
+      <div class="trainer-role">Rider &middot; Trainer</div>
+      <p class="trainer-stat">NRHA Hall of Fame. Multiple Futurity Open titles. $4M+ lifetime earnings. Respected leader and ambassador of the professional reining industry.</p>
+      <span class="trainer-badge">HOF Inductee</span>
+    </article>
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/bob-avila/'">
+      <div class="trainer-avatar" aria-hidden="true">BA</div>
+      <h3 class="trainer-name">Bob Avila</h3>
+      <div class="trainer-role">Rider &middot; Trainer &middot; Author</div>
+      <p class="trainer-stat">NRHA Hall of Fame. AQHA Professional Horseman. Author of leading reining horsemanship texts that shaped how a generation learned the sport.</p>
+      <span class="trainer-badge">HOF Inductee</span>
+    </article>
+
+    <article class="trainer-card" role="listitem" onclick="location.href='/trainers/dell-bell/'">
+      <div class="trainer-avatar" aria-hidden="true">DB</div>
+      <h3 class="trainer-name">Dell Bell</h3>
+      <div class="trainer-role">Rider &middot; Pioneer</div>
+      <p class="trainer-stat">NRHA Hall of Fame. Among the founding riders who established the professional identity of NRHA competition in its earliest decades.</p>
+      <span class="trainer-badge">HOF Inductee</span>
+    </article>
+
+  </div>
+  <div style="text-align:center;padding:0 16px 24px">
+    <a href="/trainers/" style="display:inline-block;color:var(--leather);font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px">View All Riders &amp; Trainers &#8594;</a>
+  </div>
+</section>
+
+<div class="gold-section-rule"></div>
+
+<!-- TIMELINE -->
+<section class="timeline-section" aria-labelledby="timeline-heading" style="background:var(--cream-dark);padding-top:4px">
+  <div class="section-header">
+    <h2 id="timeline-heading">Timeline of Reining History</h2>
+    <span class="gold-rule"></span>
+    <p>Major milestones, pivotal moments, and the evolution of the sport across six decades</p>
+  </div>
+  <div class="timeline" role="list">
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">1949</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">NRHA Founded</h3>
+        <p class="timeline-desc">The National Reining Horse Association is established, creating the first organized governing body for the sport of reining and standardizing rules of competition across the country.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">1966</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">NRHA Futurity Inaugural Year</h3>
+        <p class="timeline-desc">The NRHA Futurity &mdash; the most prestigious reining event in the world &mdash; holds its inaugural competition in Oklahoma City, creating the premier proving ground for 3-year-old reining horses.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">1983</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">Hollywood Dun It Foaled</h3>
+        <p class="timeline-desc">Hollywood Dun It arrives, destined to become one of the most influential reining sires of all time. His get would go on to win millions in NRHA competition worldwide across multiple decades.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">1990</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">Taris Little Step Wins Open Futurity</h3>
+        <p class="timeline-desc">Taris Little Step captures the NRHA Open Futurity, one of the most celebrated victories of the era and a defining moment for breeding and training standards in reining.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">2000</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">Reining Recognized by the FEI</h3>
+        <p class="timeline-desc">Reining is officially recognized by the F&eacute;d&eacute;ration Equestre Internationale (FEI), opening the door for international competition and growth of the sport across Europe and beyond.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">2002</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">First FEI World Reining Championship</h3>
+        <p class="timeline-desc">The inaugural FEI World Reining Championships is held, marking a new global era for the sport and showcasing American reining legends on the international stage for the first time.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">2010</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">Reining at the World Equestrian Games</h3>
+        <p class="timeline-desc">Reining is featured at the World Equestrian Games in Lexington, Kentucky &mdash; the pinnacle of international horse sport. American riders dominate competition on the world stage.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" role="listitem">
+      <div class="timeline-year">2020s</div>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">Era of Record Earners</h3>
+        <p class="timeline-desc">A new generation of breeders and trainers push earnings and performance to unprecedented heights. NRHA Futurity purses reach all-time records as the sport expands into new markets globally.</p>
+      </div>
+    </div>
+
+  </div>
+  <div style="text-align:center;padding:0 16px 24px">
+    <a href="/history/" style="display:inline-block;color:var(--leather);font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px">Explore Full Reining History &#8594;</a>
+  </div>
+</section>
+
+<!-- INDUCTEES -->
+<section class="champions-section" aria-labelledby="inductees-heading">
+  <div class="section-header">
+    <h2 id="inductees-heading">Latest Hall of Fame Inductees</h2>
+    <span class="gold-rule"></span>
+    <p>The most recent legends welcomed into the Hall of Fame</p>
+  </div>
+  <div class="inductees-list" role="list">
+
+    <div class="inductee-row" role="listitem" onclick="location.href='/hall-of-fame/2024-inductees/'">
+      <div class="inductee-year-badge">2024</div>
+      <div class="inductee-info">
+        <div class="inductee-name">Class of 2024 Inductees</div>
+        <div class="inductee-category">Riders &middot; Trainers &middot; Horses &middot; Breeders &middot; Contributors</div>
+      </div>
+      <div class="inductee-arrow" aria-hidden="true">&#8250;</div>
+    </div>
+
+    <div class="inductee-row" role="listitem" onclick="location.href='/hall-of-fame/2023-inductees/'">
+      <div class="inductee-year-badge">2023</div>
+      <div class="inductee-info">
+        <div class="inductee-name">Class of 2023 Inductees</div>
+        <div class="inductee-category">Riders &middot; Trainers &middot; Horses &middot; Industry Contributors</div>
+      </div>
+      <div class="inductee-arrow" aria-hidden="true">&#8250;</div>
+    </div>
+
+    <div class="inductee-row" role="listitem" onclick="location.href='/hall-of-fame/2022-inductees/'">
+      <div class="inductee-year-badge">2022</div>
+      <div class="inductee-info">
+        <div class="inductee-name">Class of 2022 Inductees</div>
+        <div class="inductee-category">Horses &middot; Riders &middot; Breeders &middot; Lifetime Achievement</div>
+      </div>
+      <div class="inductee-arrow" aria-hidden="true">&#8250;</div>
+    </div>
+
+    <div class="inductee-row" role="listitem" onclick="location.href='/hall-of-fame/2021-inductees/'">
+      <div class="inductee-year-badge">2021</div>
+      <div class="inductee-info">
+        <div class="inductee-name">Class of 2021 Inductees</div>
+        <div class="inductee-category">Riders &middot; Trainers &middot; Horses &middot; Industry Leaders</div>
+      </div>
+      <div class="inductee-arrow" aria-hidden="true">&#8250;</div>
+    </div>
+
+    <div class="inductee-row" role="listitem" onclick="location.href='/hall-of-fame/'">
+      <div class="inductee-year-badge" style="background:var(--gold);color:var(--leather-dark)">All</div>
+      <div class="inductee-info">
+        <div class="inductee-name">Full Hall of Fame Archive</div>
+        <div class="inductee-category">Every inductee since the Hall of Fame was established</div>
+      </div>
+      <div class="inductee-arrow" aria-hidden="true">&#8250;</div>
+    </div>
+
+  </div>
+</section>
+
+<div class="gold-section-rule"></div>
+
+<!-- VIDEOS -->
+<section aria-labelledby="videos-heading" style="background:var(--cream-dark);padding-bottom:4px">
+  <div class="section-header">
+    <h2 id="videos-heading">Legendary Runs &amp; Reining Videos</h2>
+    <span class="gold-rule"></span>
+    <p>Historic slides, perfect circles, and the greatest runs in the history of reining</p>
+  </div>
+  <div class="video-scroll" role="list" aria-label="Historic reining videos">
+    <div class="video-track">
+
+      <article class="video-card" role="listitem">
+        <div class="video-thumb" aria-hidden="true">
+          <span class="video-label">Historic Run</span>
+          <div class="video-play">&#9654;</div>
+        </div>
+        <div class="video-body">
+          <h3 class="video-title">Shawn Flarida &mdash; 2009 NRHA Open Futurity</h3>
+          <div class="video-meta">NRHA Open &middot; Oklahoma City &middot; Score: 231</div>
+        </div>
+      </article>
+
+      <article class="video-card" role="listitem">
+        <div class="video-thumb" aria-hidden="true">
+          <span class="video-label">Hall of Fame</span>
+          <div class="video-play">&#9654;</div>
+        </div>
+        <div class="video-body">
+          <h3 class="video-title">Hollywood Dun It &mdash; The Legend Lives On</h3>
+          <div class="video-meta">Documentary &middot; NRHA Heritage Series</div>
+        </div>
+      </article>
+
+      <article class="video-card" role="listitem">
+        <div class="video-thumb" aria-hidden="true">
+          <span class="video-label">World Record</span>
+          <div class="video-play">&#9654;</div>
+        </div>
+        <div class="video-body">
+          <h3 class="video-title">Andrea Fappani &mdash; FEI World Championship</h3>
+          <div class="video-meta">FEI World Reining Championships &middot; Gold Medal Run</div>
+        </div>
+      </article>
+
+      <article class="video-card" role="listitem">
+        <div class="video-thumb" aria-hidden="true">
+          <span class="video-label">Classic Archive</span>
+          <div class="video-play">&#9654;</div>
+        </div>
+        <div class="video-body">
+          <h3 class="video-title">Al Dunning &mdash; Vintage Futurity Classic</h3>
+          <div class="video-meta">NRHA Open Futurity &middot; Archival Footage</div>
+        </div>
+      </article>
+
+      <article class="video-card" role="listitem">
+        <div class="video-thumb" aria-hidden="true">
+          <span class="video-label">Champion</span>
+          <div class="video-play">&#9654;</div>
+        </div>
+        <div class="video-body">
+          <h3 class="video-title">Tom McCutcheon &mdash; Gunner&rsquo;s Greatest Runs</h3>
+          <div class="video-meta">Multiple Futurity Titles &middot; NRHA Open Series</div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+  <div style="text-align:center;padding:0 16px 24px">
+    <a href="/legendary-runs/" style="display:inline-block;color:var(--leather);font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:2px">View All Legendary Runs &#8594;</a>
+  </div>
+</section>
+
+<!-- ABOUT BANNER -->
+<div class="about-banner">
+  <h3>About This Archive</h3>
+  <p>Reining Hall of Fame is an independent editorial and historical archive celebrating the legends, horses, riders, trainers, and history of the sport of reining. This is not an official NRHA website.</p>
+  <p>Our mission is to preserve and celebrate the deep heritage of reining &mdash; honoring the people, horses, and moments that built one of the world&rsquo;s most skilled western equestrian disciplines into the global sport it is today.</p>
+</div>
+
+<!-- ECOSYSTEM -->
+<section class="eco-section" aria-labelledby="eco-heading">
+  <div class="eco-header">
+    <h2 id="eco-heading" style="font-family:'Playfair Display',serif;color:var(--gold);font-size:16px;font-weight:700">Related Western Horse Properties</h2>
+    <p style="color:#FAF6EE;font-size:0.72rem;opacity:.6;margin-top:4px;letter-spacing:1px;text-transform:uppercase">More from the Bridle &amp; Bit editorial network</p>
+  </div>
+  <nav class="eco-links" aria-label="Related equestrian websites">
+    <a href="https://reininghorses.ai" class="eco-link" rel="noopener">
+      <div class="eco-link-icon" aria-hidden="true">&#128052;</div>
+      <div class="eco-link-text">ReiningHorses.AI</div>
+    </a>
+    <a href="https://reininghorsevideos.com" class="eco-link" rel="noopener">
+      <div class="eco-link-icon" aria-hidden="true">&#127909;</div>
+      <div class="eco-link-text">Reining Horse Videos</div>
+    </a>
+    <a href="https://bridleandbit.com" class="eco-link" rel="noopener">
+      <div class="eco-link-icon" aria-hidden="true">&#128240;</div>
+      <div class="eco-link-text">Bridle &amp; Bit Mag</div>
+    </a>
+  </nav>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-logo">
+    Reining Hall of Fame
+    <span>Editorial Archive &middot; Presented by Bridle &amp; Bit</span>
+  </div>
+  <div class="footer-bb">
+    <a href="https://bridleandbit.com" rel="noopener">BridleAndBit.com</a>
+  </div>
+  <nav class="footer-nav" aria-label="Site navigation">
+    <a href="/horses/">Horses</a>
+    <a href="/riders/">Riders</a>
+    <a href="/trainers/">Trainers</a>
+    <a href="/history/">History</a>
+    <a href="/bloodlines/">Bloodlines</a>
+    <a href="/champions/">Champions</a>
+    <a href="/hall-of-fame/">Hall of Fame</a>
+    <a href="/million-dollar-sires/">Million Dollar Sires</a>
+    <a href="/legendary-runs/">Legendary Runs</a>
+    <a href="mailto:rex@bridleandbit.com">Contact</a>
+  </nav>
+  <div class="footer-divider"></div>
+  <p class="footer-disclaimer">Reining Hall of Fame is an independent historical and editorial archive celebrating the legends and history of the sport of reining. This website is not affiliated with or officially endorsed by the National Reining Horse Association (NRHA) or any other governing body.</p>
+  <p class="footer-copy">&copy; 2024 Bridle &amp; Bit. All rights reserved.</p>
+</footer>
+
+<script>
+document.querySelectorAll('.filter-chip').forEach(chip=>{
+  chip.addEventListener('click',function(){
+    this.closest('.filter-bar').querySelectorAll('.filter-chip').forEach(c=>c.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>
