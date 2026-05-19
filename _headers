@@ -1,0 +1,8 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/*.html
+  Cache-Control: public, max-age=3600
+  Content-Type: text/html; charset=utf-8
