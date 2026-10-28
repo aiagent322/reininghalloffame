@@ -1,0 +1,1158 @@
+{
+  "verified_on": "2026-10-28",
+  "source": "https://nrha.com/hall-fame/",
+  "honorees": [
+    {
+      "name": "Dale Wilkinson",
+      "slug": "dale-wilkinson",
+      "year": 1986,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "R. D. Baker",
+      "slug": "r-d-baker",
+      "year": 1988,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Stretch Bradley",
+      "slug": "bailey-stretch-bradley",
+      "year": 1988,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mickie Glenn",
+      "slug": "mickie-glenn",
+      "year": 1988,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Paul Horn",
+      "slug": "paul-horn",
+      "year": 1988,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bill Garvey",
+      "slug": "bill-garvey",
+      "year": 1988,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "C.T. Fuller",
+      "slug": "c-t-tom-fuller",
+      "year": 1989,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Kaye Potts",
+      "slug": "kaye-potts",
+      "year": 1989,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Paul Schuh",
+      "slug": "paul-schuh",
+      "year": 1990,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Guy Gauthier",
+      "slug": "guy-gauthier",
+      "year": 1990,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Clayton Woosley",
+      "slug": "clayton-woosley",
+      "year": 1990,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jim Willoughby",
+      "slug": "jim-willoughby",
+      "year": 1992,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bob Loomis",
+      "slug": "bob-loomis",
+      "year": 1992,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bill Horn",
+      "slug": "bill-horn",
+      "year": 1992,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bob Anthony",
+      "slug": "bob-anthony",
+      "year": 1992,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dick Pieper",
+      "slug": "dick-pieper",
+      "year": 1993,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Clark Bradley",
+      "slug": "clark-bradley",
+      "year": 1994,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "John Snobelen",
+      "slug": "john-snobelen",
+      "year": 1994,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Richie Greenberg",
+      "slug": "richie-greenberg",
+      "year": 2000,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Tim McQuay",
+      "slug": "tim-mcquay",
+      "year": 2000,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Tim Bartlett",
+      "slug": "tim-bartlett",
+      "year": 2000,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Frank Costantini",
+      "slug": "frank-costantini",
+      "year": 2001,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Linda Matthews",
+      "slug": "linda-matthews",
+      "year": 2003,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Eleuterio Arcese",
+      "slug": "eleuterio-arcese",
+      "year": 2004,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Pat Feuerstein",
+      "slug": "pat-feuerstein",
+      "year": 2004,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Charles Smith",
+      "slug": "charles-smith",
+      "year": 2004,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dick & Barb Waltenberry",
+      "slug": "dick-barb-waltenberry",
+      "year": 2004,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Clint Haverty",
+      "slug": "clint-haverty",
+      "year": 2005,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Doug Milholland",
+      "slug": "doug-milholland",
+      "year": 2006,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Rocky Dare",
+      "slug": "rocky-dare",
+      "year": 2006,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Keith Bradley",
+      "slug": "keith-bradley",
+      "year": 2007,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "American Quarter Horse Association",
+      "slug": "aqha",
+      "year": 2008,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dr. Jim Morgan, DVM",
+      "slug": "dr-jim-morgan",
+      "year": 2008,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Roger Brazeau",
+      "slug": "roger-brazeau",
+      "year": 2009,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mike Flarida",
+      "slug": "mike-flarida",
+      "year": 2009,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jack Brainard",
+      "slug": "jack-brainard",
+      "year": 2010,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "John Hoyt",
+      "slug": "john-hoyt",
+      "year": 2010,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Shawn Flarida",
+      "slug": "shawn-flarida",
+      "year": 2011,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bob Kiser",
+      "slug": "bob-kiser",
+      "year": 2011,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mandy McCutcheon",
+      "slug": "mandy-mccutcheon",
+      "year": 2011,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Ronnie Sharpe",
+      "slug": "ronnie-sharpe",
+      "year": 2011,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Rick Weaver",
+      "slug": "rick-weaver",
+      "year": 2013,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Carol Trimmer",
+      "slug": "carol-trimmer",
+      "year": 2013,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Colleen McQuay",
+      "slug": "colleen-mcquay",
+      "year": 2014,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Terry Thompson",
+      "slug": "terry-thompson",
+      "year": 2015,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Don Motsenbocker",
+      "slug": "don-motsenbocker",
+      "year": 2016,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Carol Rose",
+      "slug": "carol-rose",
+      "year": 2017,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Rosanne Sternberg",
+      "slug": "rosanne-sternberg",
+      "year": 2017,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bill Bradley",
+      "slug": "bill-bradley",
+      "year": 2018,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Vaughn Zimmerman",
+      "slug": "vaughn-zimmerman",
+      "year": 2018,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": true
+    },
+    {
+      "name": "Roberto Cuoghi",
+      "slug": "roberto-cuoghi",
+      "year": 2019,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Claudio Risso",
+      "slug": "claudio-risso",
+      "year": 2019,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Sally Brown",
+      "slug": "sally-brown",
+      "year": 2020,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jerry Kimmel",
+      "slug": "jerry-kimmel",
+      "year": 2020,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Doug Carpenter",
+      "slug": "doug-carpenter",
+      "year": 2021,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jose Vazquez",
+      "slug": "jose-vazquez",
+      "year": 2021,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dutch Chapman",
+      "slug": "dutch-chapman",
+      "year": 2022,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jim & Pat Warren",
+      "slug": "jim-pat-warren",
+      "year": 2022,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dell Hendricks",
+      "slug": "dell-hendricks",
+      "year": 2023,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bob Mac (Bob McDonnell)",
+      "slug": "bob-mac-robert-mcdonnell",
+      "year": 2023,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Andrea Fappani",
+      "slug": "andrea-fappani",
+      "year": 2024,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Cheryl Cody",
+      "slug": "cheryl-cody",
+      "year": 2025,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mike Hancock",
+      "slug": "mike-hancock",
+      "year": 2026,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Tom McCutcheon",
+      "slug": "tom-mccutcheon",
+      "year": 2026,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Robert “Bob” Santagata",
+      "slug": "bob-santagata",
+      "year": 2026,
+      "category": "person",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Continental King",
+      "slug": "continental-king",
+      "year": 1988,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Joe Cody",
+      "slug": "joe-cody",
+      "year": 1989,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Enterprise Lady",
+      "slug": "enterprise-lady",
+      "year": 1990,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Glenda Echols",
+      "slug": "glenda-echols",
+      "year": 1990,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "High Proof",
+      "slug": "high-proof",
+      "year": 1991,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Hollywood Smoke",
+      "slug": "hollywood-smoke",
+      "year": 1992,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Banker Bar Leo",
+      "slug": "banker-bar-leo",
+      "year": 1992,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mr Doin Good",
+      "slug": "mr-doin-good",
+      "year": 1992,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Miss White Trash",
+      "slug": "miss-white-trash",
+      "year": 1993,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Hollywood Jac 86",
+      "slug": "hollywood-jac-86",
+      "year": 1993,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Cee Leo Step",
+      "slug": "cee-leo-step",
+      "year": 1993,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Cee Blair Sailor",
+      "slug": "cee-blair-sailor",
+      "year": 1995,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Great Pine",
+      "slug": "great-pine",
+      "year": 1995,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Diamonds Sparkle",
+      "slug": "diamonds-sparkle",
+      "year": 1996,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Topsail Cody",
+      "slug": "topsail-cody",
+      "year": 1996,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Trashadeous",
+      "slug": "trashadeous",
+      "year": 1996,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Be Aech Enterprise",
+      "slug": "be-aech-enterprise",
+      "year": 1997,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Nifty Jodieann",
+      "slug": "nifty-jodieann",
+      "year": 1997,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Great Simon Sez",
+      "slug": "great-simon-sez",
+      "year": 1998,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mr Feelin Good",
+      "slug": "mr-feelin-good",
+      "year": 1998,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Hollywood Dun It",
+      "slug": "hollywood-dun-it",
+      "year": 2000,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Miss Cee Blair",
+      "slug": "miss-cee-blair",
+      "year": 2002,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dodsons Little Star",
+      "slug": "dodsons-little-star",
+      "year": 2003,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Gunner",
+      "slug": "gunner-colonels-smoking-gun",
+      "year": 2003,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Topsail Whiz",
+      "slug": "topsail-whiz",
+      "year": 2003,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Smart Chic Olena",
+      "slug": "smart-chic-olena",
+      "year": 2004,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mr Gun Smoke",
+      "slug": "mr-gun-smoke",
+      "year": 2008,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Taris Little Vintage",
+      "slug": "taris-little-vintage",
+      "year": 2008,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Miss Okie Too",
+      "slug": "miss-okie-too",
+      "year": 2008,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Custom Crome",
+      "slug": "custom-crome",
+      "year": 2009,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mega Ditto",
+      "slug": "mega-ditto",
+      "year": 2009,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Rest Stop",
+      "slug": "rest-stop",
+      "year": 2010,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Nu Chex To Cash",
+      "slug": "nu-chex-to-cash",
+      "year": 2010,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Boomernic",
+      "slug": "boomernic",
+      "year": 2011,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Collena Chic Olena",
+      "slug": "collena-chic-olena",
+      "year": 2011,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Shining Spark",
+      "slug": "shining-spark",
+      "year": 2011,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Wimpys Little Step",
+      "slug": "wimpys-little-step",
+      "year": 2011,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Wimpys Little Chic",
+      "slug": "wimpys-little-chic",
+      "year": 2012,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Miss Tinseltown",
+      "slug": "miss-tinseltown",
+      "year": 2015,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Smart Spook",
+      "slug": "smart-spook",
+      "year": 2015,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Princess In Diamonds",
+      "slug": "princess-in-diamonds",
+      "year": 2016,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Ebony Shines",
+      "slug": "ebony-shines",
+      "year": 2016,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Magnum Chic Dream",
+      "slug": "magnum-chic-dream",
+      "year": 2016,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Smart Like Juice",
+      "slug": "smart-like-juice",
+      "year": 2017,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dun It For Chex",
+      "slug": "dun-it-for-chex",
+      "year": 2018,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Snip O Gun",
+      "slug": "snip-o-gun",
+      "year": 2019,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Spooks Gotta Whiz",
+      "slug": "spooks-gotta-whiz",
+      "year": 2022,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Gunnatrashya",
+      "slug": "gunnatrashya",
+      "year": 2023,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Snow Gun",
+      "slug": "snow-gun",
+      "year": 2024,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Wind Her Up Chic",
+      "slug": "wind-her-up-chic",
+      "year": 2024,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Wind Her Up Shiner",
+      "slug": "wind-her-up-shiner",
+      "year": 2024,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Best Stop",
+      "slug": "best-stop",
+      "year": 2025,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Chexanicki",
+      "slug": "chexanicki",
+      "year": 2025,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Americasnextgunmodel",
+      "slug": "americasnextgunmodel",
+      "year": 2026,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "This Chicsdundreamin",
+      "slug": "this-chicsdundreamin",
+      "year": 2026,
+      "category": "horse",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Sally Brown",
+      "slug": "sally-brown",
+      "year": 2008,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Don Burt",
+      "slug": "don-burt",
+      "year": 2009,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Don Hotz",
+      "slug": "don-hotz",
+      "year": 2009,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "CR Morrison",
+      "slug": "cr-morrison",
+      "year": 2010,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Tracy Lynch",
+      "slug": "tracy-lynch",
+      "year": 2012,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jerry Kimmel",
+      "slug": "jerry-kimmel",
+      "year": 2014,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Pat Warren",
+      "slug": "pat-warren",
+      "year": 2014,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Ken Eppers",
+      "slug": "ken-eppers",
+      "year": 2015,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Bob Stinner",
+      "slug": "bob-stinner",
+      "year": 2015,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Sharon Barr",
+      "slug": "sharon-barr",
+      "year": 2016,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Mehl Lawson",
+      "slug": "mehl-lawson",
+      "year": 2016,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Tim Katona",
+      "slug": "tim-katona",
+      "year": 2017,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Lyle Lovett",
+      "slug": "lyle-lovett",
+      "year": 2018,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": true
+    },
+    {
+      "name": "William Shatner",
+      "slug": "william-shatner",
+      "year": 2018,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "David Silva",
+      "slug": "david-silva",
+      "year": 2019,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Michael Carrier",
+      "slug": "michael-carrier",
+      "year": 2020,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Charles Vaughan",
+      "slug": "charles-vaughan",
+      "year": 2021,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dave Belson",
+      "slug": "dave-belson",
+      "year": 2023,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jenifer Reynolds & Chris Cook",
+      "slug": "jenifer-reynolds-chris-cook",
+      "year": 2023,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Markel",
+      "slug": "markel",
+      "year": 2024,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Jeff Petska",
+      "slug": "jeff-petska",
+      "year": 2025,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Larry Kasten",
+      "slug": "larry-kasten",
+      "year": 2025,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Dan Huss",
+      "slug": "dan-huss",
+      "year": 2026,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    },
+    {
+      "name": "Duane Latimer",
+      "slug": "duane-latimer",
+      "year": 2026,
+      "category": "award",
+      "source": "https://nrha.com/hall-fame/",
+      "previous_year": false
+    }
+  ]
+}
